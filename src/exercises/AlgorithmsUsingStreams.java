@@ -14,6 +14,7 @@ public class AlgorithmsUsingStreams {
 		return eggs.stream() // 1. create stream
 				.filter(egg -> egg.equals("whole")) // 2. intermediate filter operation
 				.count();  // 3. terminal operation: reduce to an int
+	}
 
 	public static Object findTallest(List<Double> peeps) {
 //		return Collections.max(peeps);
